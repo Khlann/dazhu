@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc/HR_Pro.h
+string
+-
+vector
+-
+
+/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp
+iostream
+-
+../inc/HR_Pro.h
+/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc/HR_Pro.h
+vector
+-
+sys/time.h
+-
+unistd.h
+-
+pthread.h
+-
+iostream
+-
+fstream
+-
+iomanip
+-
+algorithm
+-
+iterator
+-
+
