@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build",
-  "command": "/usr/bin/c++   -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc  -g   -o CMakeFiles/HansSDK.dir/src/Move.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp",
-  "file": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp"
-}
-]

@@ -1,3 +1,0 @@
-/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/rebuild_cache.dir
-/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/edit_cache.dir
-/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/HansSDK.dir
