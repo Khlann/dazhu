@@ -4,13 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp" "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/HansSDK.dir/src/Move.cpp.o"
+  "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp" "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o"
+  "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp" "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/CMakeFiles/HansSDK.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "inc/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc"
+  "inc"
+  "src"
   )
 
 # Targets to which this target links.

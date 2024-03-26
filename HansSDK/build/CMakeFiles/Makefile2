@@ -74,12 +74,12 @@ clean: CMakeFiles/HansSDK.dir/clean
 CMakeFiles/HansSDK.dir/all:
 	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/depend
 	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=1,2 "Built target HansSDK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=1,2,3 "Built target HansSDK"
 .PHONY : CMakeFiles/HansSDK.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/HansSDK.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HansSDK.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles 0
 .PHONY : CMakeFiles/HansSDK.dir/rule

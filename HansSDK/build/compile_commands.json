@@ -1,7 +1,12 @@
 [
 {
   "directory": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build",
-  "command": "/usr/bin/c++   -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc  -g   -o CMakeFiles/HansSDK.dir/src/Move.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp",
-  "file": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp"
+  "command": "/usr/bin/c++   -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src  -g   -o CMakeFiles/HansSDK.dir/src/main.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp",
+  "file": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp"
+},
+{
+  "directory": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build",
+  "command": "/usr/bin/c++   -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src  -g   -o CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp",
+  "file": "/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp"
 }
 ]

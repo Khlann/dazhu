@@ -6,5 +6,5 @@ CXX_FLAGS = -g
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc 
+CXX_INCLUDES = -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/inc -I/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src 
 

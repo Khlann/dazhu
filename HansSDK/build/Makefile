@@ -123,32 +123,59 @@ HansSDK/fast:
 	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/build
 .PHONY : HansSDK/fast
 
-src/Move.o: src/Move.cpp.o
+src/Dazhu.o: src/Dazhu.cpp.o
 
-.PHONY : src/Move.o
+.PHONY : src/Dazhu.o
 
 # target to build an object file
-src/Move.cpp.o:
-	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Move.cpp.o
-.PHONY : src/Move.cpp.o
+src/Dazhu.cpp.o:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o
+.PHONY : src/Dazhu.cpp.o
 
-src/Move.i: src/Move.cpp.i
+src/Dazhu.i: src/Dazhu.cpp.i
 
-.PHONY : src/Move.i
+.PHONY : src/Dazhu.i
 
 # target to preprocess a source file
-src/Move.cpp.i:
-	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Move.cpp.i
-.PHONY : src/Move.cpp.i
+src/Dazhu.cpp.i:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Dazhu.cpp.i
+.PHONY : src/Dazhu.cpp.i
 
-src/Move.s: src/Move.cpp.s
+src/Dazhu.s: src/Dazhu.cpp.s
 
-.PHONY : src/Move.s
+.PHONY : src/Dazhu.s
 
 # target to generate assembly for a file
-src/Move.cpp.s:
-	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Move.cpp.s
-.PHONY : src/Move.cpp.s
+src/Dazhu.cpp.s:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/Dazhu.cpp.s
+.PHONY : src/Dazhu.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/HansSDK.dir/build.make CMakeFiles/HansSDK.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... HansSDK"
-	@echo "... src/Move.o"
-	@echo "... src/Move.i"
-	@echo "... src/Move.s"
+	@echo "... src/Dazhu.o"
+	@echo "... src/Dazhu.i"
+	@echo "... src/Dazhu.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 

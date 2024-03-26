@@ -57,31 +57,46 @@ include CMakeFiles/HansSDK.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/HansSDK.dir/flags.make
 
-CMakeFiles/HansSDK.dir/src/Move.cpp.o: CMakeFiles/HansSDK.dir/flags.make
-CMakeFiles/HansSDK.dir/src/Move.cpp.o: ../src/Move.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HansSDK.dir/src/Move.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HansSDK.dir/src/Move.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp
+CMakeFiles/HansSDK.dir/src/main.cpp.o: CMakeFiles/HansSDK.dir/flags.make
+CMakeFiles/HansSDK.dir/src/main.cpp.o: ../src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/HansSDK.dir/src/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HansSDK.dir/src/main.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp
 
-CMakeFiles/HansSDK.dir/src/Move.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HansSDK.dir/src/Move.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp > CMakeFiles/HansSDK.dir/src/Move.cpp.i
+CMakeFiles/HansSDK.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HansSDK.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp > CMakeFiles/HansSDK.dir/src/main.cpp.i
 
-CMakeFiles/HansSDK.dir/src/Move.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HansSDK.dir/src/Move.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Move.cpp -o CMakeFiles/HansSDK.dir/src/Move.cpp.s
+CMakeFiles/HansSDK.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HansSDK.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/main.cpp -o CMakeFiles/HansSDK.dir/src/main.cpp.s
+
+CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o: CMakeFiles/HansSDK.dir/flags.make
+CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o: ../src/Dazhu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o -c /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp
+
+CMakeFiles/HansSDK.dir/src/Dazhu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HansSDK.dir/src/Dazhu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp > CMakeFiles/HansSDK.dir/src/Dazhu.cpp.i
+
+CMakeFiles/HansSDK.dir/src/Dazhu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HansSDK.dir/src/Dazhu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/src/Dazhu.cpp -o CMakeFiles/HansSDK.dir/src/Dazhu.cpp.s
 
 # Object files for target HansSDK
 HansSDK_OBJECTS = \
-"CMakeFiles/HansSDK.dir/src/Move.cpp.o"
+"CMakeFiles/HansSDK.dir/src/main.cpp.o" \
+"CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o"
 
 # External object files for target HansSDK
 HansSDK_EXTERNAL_OBJECTS =
 
-HansSDK: CMakeFiles/HansSDK.dir/src/Move.cpp.o
+HansSDK: CMakeFiles/HansSDK.dir/src/main.cpp.o
+HansSDK: CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o
 HansSDK: CMakeFiles/HansSDK.dir/build.make
 HansSDK: /usr/local/lib/libHR_Pro.so
 HansSDK: CMakeFiles/HansSDK.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HansSDK"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xh/xh/HansSDK_demo/home/wayne/Desktop/HansSDK/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HansSDK"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HansSDK.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

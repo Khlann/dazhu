@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/HansSDK.dir/src/Move.cpp.o"
+  "CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o"
+  "CMakeFiles/HansSDK.dir/src/main.cpp.o"
   "HansSDK"
   "HansSDK.pdb"
 )

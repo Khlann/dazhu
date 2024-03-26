@@ -1,1 +1,1 @@
-/usr/bin/c++    -rdynamic CMakeFiles/HansSDK.dir/src/Move.cpp.o  -o HansSDK  -Wl,-rpath,/usr/local/lib /usr/local/lib/libHR_Pro.so -lpthread 
+/usr/bin/c++    -rdynamic CMakeFiles/HansSDK.dir/src/main.cpp.o CMakeFiles/HansSDK.dir/src/Dazhu.cpp.o  -o HansSDK  -Wl,-rpath,/usr/local/lib /usr/local/lib/libHR_Pro.so -lpthread 
