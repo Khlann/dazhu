@@ -39,11 +39,31 @@ public:
      */
     bool Move(vector<float> arr);//移动到指定位置，只能传入6个元素的数组
 
+    /**
+     * @brief Enables the robot.
+     */
+    void Enable();//机器人使能
+
+    /**
+     * @brief Disable the robot.
+     */
+    void Disable();//机器人失能
+
+    /**
+     * @brief Read current state machine.
+     * @param nCurFSM The current state machine.
+     * @param strCurFSM The current state machine field.
+     * @return flag The flag to indicate whether to read the current state machine.
+     */
+    int ReadCurFSM();//读取当前状态机
+
 private:
     string Msg;//消息
     int nRet;//返回值
     const char* IP;//机器人的IP地址
     unsigned short nPort ;//机器人的端口号
+    int nCurFSM = 0;//当前状态机
+    string strCurFSM = "";//当前状态机字段
     vector<float> arr = {         //路径点_demo
         200.0, 50.0, 700.0, 0.0, 0.0, 5.0,
         200.0, 100.0, 700.0, 0.0, 0.0, 5.0,

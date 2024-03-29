@@ -149,10 +149,9 @@ bool Dazhu::Move(vector<float> arr)
         cout << "正在到达目标点" << endl;
         sleep(1);
     }
-    int nRet= HRIF_GrpDisable(0,0);//机器人失能
+    //int nRet= HRIF_GrpDisable(0,0);//机器人失能
     cout << "到达目标点" << endl;
-
-
+    return true;
 }
 
 int Dazhu::getInPos(unsigned int boxID, unsigned int rbtID) {
@@ -168,3 +167,21 @@ int Dazhu::getInPos(unsigned int boxID, unsigned int rbtID) {
     // 现在你可以使用nInpos
     //cout << "nInpos: " << nInpos << endl;
 }
+
+void Dazhu::Enable()
+{
+    int nRet= HRIF_GrpEnable(0,0);//机器人使能
+}
+
+void Dazhu::Disable()
+{
+    int nRet= HRIF_GrpDisable(0,0);//机器人失能
+}
+
+int Dazhu::ReadCurFSM()
+{
+    int nRet= HRIF_ReadCurFSM(0,0, nCurFSM, strCurFSM);//读取当前状态机
+    cout << "now_state:" << nCurFSM <<" "<<strCurFSM<<endl;
+    return nRet;
+}
+
